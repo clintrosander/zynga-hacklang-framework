@@ -173,7 +173,7 @@ function xhprof_generate_dot_script($raw_data, $threshold, $source, $page,
   $max_fontsize = 35;
   $max_sizing_ratio = 20;
 
-  $totals;
+  $totals = array();
 
   if ($left === null) {
     // init_metrics($raw_data, null, null);
